@@ -31,11 +31,11 @@ class _ParamsPageState extends State<ParamsPage> {
         
         children: [
           
-          Text(widget.text_value),
-          Text(widget.text_nonik),
-          Text(widget.text_notelp),
-          Text(widget.text_alamat),
-          Text(widget.text_umur),
+          Center(child: Text(widget.text_value)),
+          Center(child: Text(widget.text_nonik)),
+          Center(child: Text(widget.text_notelp)),
+          Center(child: Text(widget.text_alamat)),
+          Center(child: Text(widget.text_umur)),
           
         ],
 
